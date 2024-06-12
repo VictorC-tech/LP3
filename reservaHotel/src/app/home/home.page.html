@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label position="stacked">Valor da Diaria</ion-label>
+    <ion-input type="number" [(ngModel)]="diaria"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Dias de hospedagem: {{ dias }}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-range min="1" max="30" step="1" [(ngModel)]="dias"></ion-range>
+  </ion-item>
+  <ion-button expand="block" (click)="calcularHospedagem()">Proximo</ion-button>
+</ion-content>

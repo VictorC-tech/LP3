@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="#"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Back</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-label>Valor da Diaria: {{ diaria }}</ion-label> <br />
+  <ion-label>Numero de dias de Hospedagem: {{dias}}</ion-label> <br />
+  <ion-label>Valor total: {{valor}}</ion-label> <br />
+  <ion-button expand="block" (click)="confirmarHospedagem()">Confirmar</ion-button>
+</ion-content>
