@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'options-page/:media/:plantas',
+    loadChildren: () => import('./options-page/options-page.module').then( m => m.OptionsPagePageModule)
+  },
 ];
 
 @NgModule({
