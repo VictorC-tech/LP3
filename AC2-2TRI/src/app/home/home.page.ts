@@ -50,11 +50,11 @@ export class HomePage {
       }else if(this.media >= 10 && this.media < 12){
         this.plantas="Nós recomendamos Uva, Figo, Morango, Kiwi, Romã, Laranja, Tangerina, Abacate, Manga, Limão, Pomelo, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão e Maracujá";
       }else if(this.media >= 12 && this.media < 15){
-        this.plantas="Nós recomendamos Uva, Figo, Morango, Kiwi, Romã, Laranja, Tangerina, Abacate, Manga, Limão, Pomelo, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Maracujá, Limão, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Banana e Maracujá";
+        this.plantas="Nós recomendamos Uva, Figo, Morango, Kiwi, Romã, Laranja, Tangerina, Abacate, Manga, Limão, Pomelo, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Maracujá e Banana";
       }else if(this.media >= 15 && this.media <= 32){
-        this.plantas="Nós recomendamos Carambola, Abacaxi, Uva, Figo, Morango, Kiwi, Romã, Laranja, Tangerina, Abacate, Manga, Limão, Pomelo, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Maracujá, Limão, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Banana e Maracujá";
+        this.plantas="Nós recomendamos Carambola, Abacaxi, Uva, Figo, Morango, Kiwi, Romã, Laranja, Tangerina, Abacate, Manga, Limão, Pomelo, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Maracujá e Banana";
       }else if(this.media > 32 && this.media <= 35){
-        this.plantas="Nós recomendamos Carambola, Uva, Figo, Kiwi, Romã, Laranja, Tangerina, Abacate, Manga, Limão, Pomelo, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Maracujá, Limão, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Banana e Maracujá";
+        this.plantas="Nós recomendamos Carambola, Uva, Figo, Kiwi, Romã, Laranja, Tangerina, Abacate, Manga, Limão, Pomelo, Limão Siciliano, Limão Tahiti, Limão-cravo, Mamão, Maracujá e Banana";
       }else if(this.media > 35 && this.media <= 38){
         this.plantas="Nós recomendamos Carambola, Uva, Figo, Kiwi, Romã, Laranja, Tangerina, Abacate, Manga, Pomelo e Mamão";
       }else if(this.media > 38 && this.media <= 40){
